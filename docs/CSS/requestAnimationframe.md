@@ -1,0 +1,29 @@
+# requestAnimationframe
+
+------
+
+### 定义：
+
+**请求动画帧**。HTML5新增特性，[window.requestAnimationFrame(callback)](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestAnimationFrame)在MDN描述：
+
+> 告诉浏览器——你希望执行一个动画，并且要求浏览器在下次重绘之前调用指定的回调函数更新动画。该方法需要传入一个回调函数作为参数，该回调函数会在下一次重绘之前执行。
+
+### 语法：
+
+`callback`：**下一次重绘之前更新动画帧所调用的函数**，该回调函数会被传入`DomHighResTimeStamp`参数，它表示`requestAnimationFrame`开始去执行回调函数的时刻，该方法属于**宏任务**，所以会在执行完微任务之后再去执行。
+
+`取消动画`：使用`cancelAnimationFrame`来取消动画，该方法接收一个参数——requestAnimationFrame默认返回的id，只需要传入这个id就可以取消动画。
+
+#### 优势：
+
+- **CPU节能**：使用`SetInterval`实现的动画，当页面被隐藏或最小化时，`SetInterval`仍在后台执行动画任务，由于此时页面处于不可见或不可用状态，刷新动画是没意义的，浪费CPU资源。而`RequestAnimationFrame`完全不同，当页面处理未激活的这条下，该页面的屏幕刷新任务也会被系统暂停，因此跟着系统走的`RequestAnimationFrame`也会停止渲染，当页面被激活时，动画就从上次停留的地方继续执行，有效节省了CPU开销。
+- **函数节流**：在高频率事件（`resize`，`scroll`等）中，为了防止在一个刷新间隔内发生多次函数执行，`RequestAnimationFrame`可保证每个刷新间隔内，函数只被执行一次，这样既能保证流畅性，也能刚好地节省函数执行的开销，一个刷新间隔内的函数执行多次是没有意义的，因为多数显示器每**16.7ms**刷新一次，多次绘制并不会在屏幕上体现出来。
+- **减少DOM操作**：`RequestAnimationFrame`会把每一帧中的所有DOM操作集中起来，在一次重绘或回流中完成，并且重绘或回流的时间间隔紧紧跟随浏览器的刷新频率，一般来说，这个频率为每秒60帧。
+
+### setTimeout执行动画的缺点：
+
+它通过设定间隔时间来不断改变图像位置，达到动画效果。但是容易出现卡顿、抖动的现象，原因如下：
+
+- `setTimeout`任务被放入异步队列，只有当主线程任务执行完成后才会执行队列中的任务，因此实际执行时间总是比设定的时间要晚。
+- `setTimeout`的固定时间间隔不一定与屏幕刷新间隔相同，会引起丢帧。
+
