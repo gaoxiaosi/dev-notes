@@ -4,7 +4,7 @@
 
 ### 免费软件：
 
-##### [VSCode](https://code.visualstudio.com/)：`免费`。目前最流行的编辑器。
+[VSCode](https://code.visualstudio.com/)：`免费`。目前最流行的编辑器。
 
 [ITerm2](https://iterm2.com/)：`免费`。目前最流行的终端。
 
@@ -14,11 +14,7 @@
 
 [Blurred](https://apps.apple.com/cn/app/blurred/id1497527363?mt=12)：`免费`。窗口聚焦，少用，替代收费的[HazeOver](https://apps.apple.com/cn/app/hazeover-%E5%B9%B2%E6%89%B0%E8%B0%83%E8%8A%82%E5%99%A8/id430798174?mt=12)。
 
-[Fig](https://github.com/withfig/autocomplete)：`开源免费`。命令行提示工具。
-
 [Mos](https://github.com/Caldis/Mos/releases/)：`开源免费`。使鼠标滚动更加平滑。
-
-[draw.io](https://github.com/jgraph/drawio-desktop)：`开源免费`。流程图绘制。
 
 [Bob](https://github.com/ripperhe/Bob)：`开源免费`。翻译，可滑过翻译、直接呼出翻译、截图翻译，自行设置ORC。	
 
@@ -55,8 +51,6 @@
 [IShot Pro](https://apps.apple.com/cn/app/ishot-pro-%E4%B8%93%E4%B8%9A%E7%9A%84%E6%88%AA%E5%9B%BE%E8%B4%B4%E5%9B%BE%E5%BD%95%E5%B1%8F%E5%BD%95%E9%9F%B3ocr%E7%BF%BB%E8%AF%91%E5%8F%96%E8%89%B2%E5%B7%A5%E5%85%B7/id1611347086?mt=12)：`收费：78`。截图、录屏等。
 
 [Qspace Pro](https://qspace.awehunt.com/zh-cn/index.html)：`收费：49`。Finder增强，可快捷启动、分屏、文件管理等。
-
-[ToothFairy](https://apps.apple.com/cn/app/toothfairy/id1191449274?mt=12)：`收费：40`。一键连接无线耳机。
 
 [Parallels Desktop](https://www.parallels.cn/)：`收费`。windows虚拟机，偶尔用用。
 
