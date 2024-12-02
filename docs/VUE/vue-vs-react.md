@@ -1,4 +1,4 @@
-对React和React的理解，异同
+### Vue和React对比
 
 ------
 
