@@ -6,7 +6,7 @@
 
 [Tampermonkey油猴脚本](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)：js脚本，最好自己写，使用别人的脚本时注意安全。
 
-[沉浸式翻译](https://immersivetranslate.com/zh-Hans/)：翻译。
+[沉浸式翻译](https://immersivetranslate.com/zh-Hans/)：整页翻译。
 
 [xStyle](https://chrome.google.com/webstore/detail/xstyle/hncgkmhphmncjohllpoleelnibpmccpj)：修改网站的样式，好几年没更新了，但比[stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)强，可以支持变量、函数等。
 
@@ -38,7 +38,7 @@
 
 `f`：页面标记。
 
-`F`：页面标记，打开但不跳转到新的标签页。
+`F`：页面标记，新标签页打开。
 
 `r`：刷新页面。
 
@@ -66,17 +66,11 @@
 
 `L`：前进。
 
-`gu`：访问上一级。
-
-`gU`：访问首页。
-
 `o`：搜索历史记录。
 
 `T`：在标签页中查找。
 
 `b`：搜索收藏夹，`B`是在新标签页打开。
-
-`yt`：复制当前标签页。
 
 
 
