@@ -38,7 +38,7 @@
 
 [KeyClu](https://github.com/Anze/KeyCluCask)：`开源免费`。查看应用快捷键。
 
-[Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements)：改键，设置各种快捷键。
+[Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements)：`开源免费`。改键，设置各种快捷键。
 
 
 
