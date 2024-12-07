@@ -22,7 +22,7 @@ export default defineConfig({
       { text: 'JS', link: 'JS/Ajax' },
       { text: 'VUE', link: 'VUE/Diff算法' },
       { text: '工程化', link: '工程化/module' },
-      { text: '算法', link: '算法/排序' },
+      { text: '算法', link: '算法/小游戏' },
       { text: '其他', link: '其他/Chrome' }
     ],
     footer: {
