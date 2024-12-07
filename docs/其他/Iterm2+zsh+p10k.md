@@ -10,7 +10,7 @@
 
 ### Zsh配置
 
-1. 使用`brew`安装：`brew install zsh`
+1. 使用`brew`安装：`brew install zsh`，设置主机`PS1='%~ '`
 
 2. 安装官方插件：`brew install zsh-syntax-highlighting zsh-autosuggestions zsh-history-substring-search`
 
