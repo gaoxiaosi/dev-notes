@@ -47,8 +47,7 @@
 ```sh
 brew install powerlevel10k
 ZSH_THEME="powerlevel10k/powerlevel10k"
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-# source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
+source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
 ```
 
 2. 执行命令`p10k configure`，自定义配置界面，过程之中可能会下载字体`MesloLGS NF`
