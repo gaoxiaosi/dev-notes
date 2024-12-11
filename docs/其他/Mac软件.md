@@ -40,6 +40,12 @@
 
 [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements)：`开源免费`。改键，设置各种快捷键。
 
+[HandBrake](https://github.com/HandBrake/HandBrake)：`开源免费`。压缩视频，尤其是要上传4K高清视频到各种平台。
+
+[QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)：`开源免费`。视频录制，原生Mac开发，轻量10M以内。
+
+[AltTab](https://github.com/lwouis/alt-tab-macos)：`开源免费`。应用切换。
+
 
 
 ### 收费软件：
