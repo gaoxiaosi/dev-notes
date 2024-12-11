@@ -5,7 +5,7 @@
 按下大写锁定`Caps_Lock`键，开始新的`层`
 
 1. 方向键：`JKLI`
-2. 系统功能：`上下 → 音量加减`，`左右 → 亮度减加`
+2. 系统功能：`MN → 音量加减`，`上下 → 音量加减`，`左右 → 亮度减加`
 3. 特殊键：`分号; → 回车Enter`
 
 ```json
@@ -125,7 +125,7 @@
                 "key_code": "n",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "home" }],
+            "to": [{ "key_code": "volume_decrement" }],
             "type": "basic"
         },
         {
@@ -140,7 +140,7 @@
                 "key_code": "m",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "end" }],
+            "to": [{ "key_code": "volume_increment" }],
             "type": "basic"
         },
         {

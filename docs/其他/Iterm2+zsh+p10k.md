@@ -7,6 +7,7 @@
 1. 透明度：Profiles → Window → Transparancy = 50%
 2. 窗口标题：Profiles → General → Title = PWD
 3. 光标：Profiles → Text → Cursor = Underline
+4. 字体大小：Profiles → Text → Font = 20
 
 ### Zsh配置
 
