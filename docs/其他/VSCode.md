@@ -2,6 +2,16 @@
 
 ------
 
+### 主题 & 字体：（[主题网站，随便挑](https://vscodethemes.com/)）
+
+[One Dark Pro](https://github.com/Binaryify/OneDark-Pro)：编辑器主题。
+
+[material icon](https://github.com/material-extensions/vscode-material-icon-theme)：图标主题。
+
+[FiraCode](https://github.com/tonsky/FiraCode)：字体，连贯符号。
+
+
+
 ### 插件：
 
 [background](https://github.com/shalldie/vscode-background)：设置背景图片。
@@ -16,7 +26,7 @@
 
 [Live Server](https://github.com/ritwickdey/vscode-live-server-plus-plus)：启动一个可实时刷新的开发本地服务器。
 
-[Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)：markdown文件预览。
+[Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)：markdown文件预览，主题设置为`github-dark.css`。
 
 [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)：鼠标或点击某行代码，可以看到上次的提交信息。
 
