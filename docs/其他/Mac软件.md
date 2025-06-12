@@ -46,6 +46,8 @@
 
 [AltTab](https://github.com/lwouis/alt-tab-macos)：`开源免费`。应用切换。
 
+[Loop](https://github.com/MrKai77/Loop)：`开源免费`。使用鼠标对页面进行分屏。
+
 
 
 ### 收费软件：
