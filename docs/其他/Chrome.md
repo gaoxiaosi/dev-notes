@@ -8,7 +8,7 @@
 
 [沉浸式翻译](https://immersivetranslate.com/zh-Hans/)：整页翻译。
 
-[xStyle](https://chrome.google.com/webstore/detail/xstyle/hncgkmhphmncjohllpoleelnibpmccpj)：修改网站的样式，好几年没更新了，但比[stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)强，可以支持变量、函数等。
+[stylus](https://github.com/openstyles/stylus)：修改网站的样式，可以支持变量、函数等。
 
 [Vimium C - 全键盘操作浏览器](https://chrome.google.com/webstore/detail/vimium-c-all-by-keyboard/hfjbmagddngcpeloejdejnfgbamkjaeg)：使用键盘操作浏览器。
 
