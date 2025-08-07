@@ -23,7 +23,8 @@ export default defineConfig({
       { text: 'VUE', link: 'VUE/Diff算法' },
       { text: '工程化', link: '工程化/module' },
       { text: '算法', link: '算法/小游戏' },
-      { text: '其他', link: '其他/Chrome' }
+      { text: '其他', link: '其他/Chrome' },
+      { text: '视频', link: '视频/js动画' }
     ],
     footer: {
       // message: 'Released under the MIT License.',
@@ -36,7 +37,7 @@ export default defineConfig({
       documentRootPath: '/docs',
       collapsed: true,
       manualSortFileNameByPriority: [
-        'CSS', 'JS', 'VUE', '工程化', '算法', '其他'
+        'CSS', 'JS', 'VUE', '工程化', '算法', '其他', '视频'
       ]
     }),
 
