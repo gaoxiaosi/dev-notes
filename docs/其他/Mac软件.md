@@ -4,15 +4,15 @@
 
 ### 免费软件：
 
-[VSCode](https://code.visualstudio.com/)：`免费`。目前最流行的编辑器。
+[VSCode](https://code.visualstudio.com/)：`免费`。编辑器。
 
-[ITerm2](https://iterm2.com/)：`免费`。目前最流行的终端。
+[ITerm2](https://iterm2.com/)：`免费`。终端。
 
 [Apifox](https://www.apifox.cn/)：`免费`。国产免费的接口调试软件，替代[Postman](https://www.postman.com/)。
 
 [Amphetamine](https://apps.apple.com/cn/app/amphetamine/id937984704?mt=12)：`免费`。防止电脑休眠。
 
-[Blurred](https://apps.apple.com/cn/app/blurred/id1497527363?mt=12)：`免费`。窗口聚焦，少用，替代收费的[HazeOver](https://apps.apple.com/cn/app/hazeover-%E5%B9%B2%E6%89%B0%E8%B0%83%E8%8A%82%E5%99%A8/id430798174?mt=12)。
+[Blurred](https://apps.apple.com/cn/app/blurred/id1497527363?mt=12)：`免费`。窗口聚焦，替代收费的[HazeOver](https://apps.apple.com/cn/app/hazeover-%E5%B9%B2%E6%89%B0%E8%B0%83%E8%8A%82%E5%99%A8/id430798174?mt=12)。
 
 [Obsidian](https://obsidian.md/)：`个人版免费`。知识库笔记软件，脑图、双链接等特点。
 
@@ -30,7 +30,7 @@
 
 [KeyCastr](https://github.com/keycastr/keycastr)：`开源免费`。显示你按下的键。
 
-[IINA](https://github.com/iina/iina)：`开源免费`。目前最流行的视频播放器。
+[IINA](https://github.com/iina/iina)：`开源免费`。视频播放器。
 
 [AutoRaise](https://github.com/sbmpost/AutoRaise)：`开源免费`。鼠标滑到窗口上时，自动激活并聚焦。
 
