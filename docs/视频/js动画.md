@@ -12,4 +12,11 @@
 
 ### JS动画的发展历程
 
-setTimeOut
+`setTimeout` / `setInterval`
+
+`jQuery`
+
+`requestAnimationFrame`大一统
+
+3D动画webGL
+
