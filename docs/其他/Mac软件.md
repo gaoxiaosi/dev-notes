@@ -75,3 +75,18 @@
 [酷狗音乐概念版](https://apps.apple.com/cn/app/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%88-%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90%E5%8C%A0%E5%BF%83%E5%87%BA%E5%93%81/id1480205582)：[V2.5.5](https://apps.apple.com/cn/app/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%88-%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90%E5%8C%A0%E5%BF%83%E5%87%BA%E5%93%81/id1480205582)，只要听歌就会`自动领会员一天`。
 
 [全民K歌](https://apps.apple.com/cn/app/%E5%85%A8%E6%B0%91k%E6%AD%8C-%E4%BD%A0%E5%85%B6%E5%AE%9E%E5%BE%88%E4%BC%9A%E5%94%B1%E6%AD%8C/id910513149?sid=)：[V8.1.42](https://apps.apple.com/cn/app/%E5%85%A8%E6%B0%91k%E6%AD%8C-%E4%BD%A0%E5%85%B6%E5%AE%9E%E5%BE%88%E4%BC%9A%E5%94%B1%E6%AD%8C/id910513149?sid=)，所有的歌曲`都可以唱`。
+
+
+
+### 安装外部软件：
+
+macOS26之前直接在隐私安全处允许即可，macOS26之后按照下面的步骤进行操作
+
+```shell
+# 将系统设置允许打开任何来源的 app
+spctl --global-disable
+
+#授权 app 使用
+sudo xattr -d com.apple.quarantine [app路径]
+```
+
